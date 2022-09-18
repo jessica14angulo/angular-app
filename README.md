@@ -1,2 +1,1 @@
-# 
-angular-app
+# angular-app
