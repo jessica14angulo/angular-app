@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-app';
-  name = 'Jessica App';
+  userName = '';
+  showSecret = false;
+  log: any = [];
+
+  onToggleDetails() {
+    this.showSecret = !this.showSecret;
+    this.log.push(new Date());
+  }
 }
